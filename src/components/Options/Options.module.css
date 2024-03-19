@@ -1,0 +1,24 @@
+.optionsContainer {
+  display: flex;
+  gap: 10px;
+}
+
+.optionsBtn {
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(101, 101, 193);
+  color: rgb(227, 227, 227);
+  padding: 5px 10px;
+}
+
+.optionsBtn:hover,
+.optionsBtn:focus {
+  background-color: rgb(39, 39, 178);
+  transition: linear;
+  transition-duration: 1s;
+}
+.resetBtn {
+  background-color: rgb(210, 63, 63);
+  border: 1px solid rgb(194, 102, 102);
+  box-shadow: inset -11px 12px 27px 0px rgb(108, 17, 83);
+}
